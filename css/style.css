@@ -26,3 +26,25 @@ body{
 .sony{
     color: white;
 }
+/* MAIN */
+.jumbo{  
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    color: var(--lavish-white);
+} 
+/* hero */
+#jumbo-cards .row img{
+    filter: saturate(50%);
+}
+.hover-item {
+    transition: 0.3s;
+}
+.hover-item:hover {
+    transform: translate(0, -10px);
+    filter: saturate(150%);
+    box-shadow: 0px 13px 10px 0px var(--light-grey);
+}
