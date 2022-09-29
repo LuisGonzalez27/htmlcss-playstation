@@ -1,0 +1,28 @@
+:root{
+    --black: #191919;
+    --blue: #3A6DE7;
+    --light-grey: #BEBCBB;
+    --dark-blue: #161C3B;
+    --red: #CD3D0F;
+    --lavish-white: #D9DADC;
+}
+/*** COMMON ***/
+body{
+    background-color: var() ;
+}
+.mybg-black{
+    background-color: var(--black);
+}
+.mybg-light-grey{
+    background-color: var(--light-grey);
+}
+.mybg-dark-blue{
+    background-color: var(--dark-blue);
+}
+.mybg-blue{
+    background-color: var(--blue);
+}
+/*** HEADER **/
+.sony{
+    color: white;
+}
