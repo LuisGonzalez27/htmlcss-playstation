@@ -22,21 +22,23 @@ body{
 .mybg-blue{
     background-color: var(--blue);
 }
-/*** HEADER **/
-.sony{
-    color: white;
-}
-/* MAIN */
 .jumbo{  
-    background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
     width: 100%;
     height: 80vh;
-    color: var(--lavish-white);
+}
+/*** HEADER **/
+.sony{
+    color: white;
+}
+/* MAIN */
+/* jumbotrom section */
+#jumbotron{  
+    background-image: url(../img/jumbo-bg.png);
 } 
-/* hero */
+/* jumbo-cards */
 #jumbo-cards .row img{
     filter: saturate(50%);
 }
@@ -47,4 +49,14 @@ body{
     transform: translate(0, -10px);
     filter: saturate(150%);
     box-shadow: 0px 13px 10px 0px var(--light-grey);
+    cursor:pointer;
+}
+/* jumbotron-2 section */
+#jumbotron-2{  
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+} 
+/* goods-ps5 */
+#goods-ps5 .ware:hover{
+    border-bottom: 2px solid var(--blue);
+    cursor:pointer;
 }
