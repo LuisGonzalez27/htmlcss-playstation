@@ -60,3 +60,8 @@ body{
     border-bottom: 2px solid var(--blue);
     cursor:pointer;
 }
+/* nuove uscite */
+#nuove-uscite img:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+}
