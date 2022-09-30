@@ -62,7 +62,7 @@ body{
     cursor:pointer;
 }
 /* nuove uscite */
-#nuove-uscite img:hover{
+#nuove-uscite img:hover, #social img:hover{
     transform: scale(1.1);
     cursor:pointer;
 }
